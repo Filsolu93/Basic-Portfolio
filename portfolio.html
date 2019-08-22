@@ -1,97 +1,82 @@
-
+<!-- Portfolio Page -->
 <!DOCTYPE html>
-<html lang="en”>
+<html>
+
 <head>
-    <meta charset="UTF-8”>
- 
-        <!--Responsive Mobile Meta Tag-->
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 
-    <title>Bootstrap Portfolio</title>
+  <title>Filmon m Habtu: Portfolio</title>
 
-    <link rel="icon" type="Filmon.pg/jpg" href=“favicon”>
-
-        <!--Bootstrap links, CSS, JQUERY, JavaScript-->
-
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-
-    <link rel="stylesheet" type="text/css" href="assets/style.css">
-
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
+
 <body>
 
-    <div class="container">
+  <header>
+    <div class="head-container">
+      <a href="index.html">
+        <h1>Filmon m Habtu</h1>
+      </a>
 
-        <nav class="navbar navbar-default">
-          <!-- <div class="container-fluid"> -->
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header">
-              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-              </button>
-              <div class="navbar-brand">filmon-m-habtu</div>
-            </div>
-
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-              <ul class="nav navbar-nav navbar-right">
-                <li><a href="index.html">About</a></li>
-                <li><a href="contact.html">Contact</a></li>
-                <li><a href="portfolio.html">Portfolio</a></li>                            
-              </ul>
-            </div><!-- /.navbar-collapse -->
-          </div><!-- /.container-fluid -->
-        </nav>
-
-        <div class="row">
-            <div class="col-sm-8" id="portfolio">
-                <h2>Portfolio</h2>
-                <hr>   
-                <ul>
-                    
-                   
-                    <li>
-                        <a href="#"><img src="https://github.com/Filsolu93/TriviaGame" height="110px"/> 
-                        <div class="">Trivia Game</div>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#"><img src="https://github.com/Filsolu93/Psychic-Game" height="110px"/> 
-                        <div class="">Psychic-Game</div>
-                        </a>
-                    </li>
-                    
-                </ul>  
-            </div>
-
-            <div class="col-sm-4" id="connect">
-                <h3>Connect with Me</h3>
-
-                <hr>
-
-                <a href="https://github.com/Filsolu93" target="_blank"><img src="assets/images/if_github-square-social-media_764894.png" height="51"/>
-                </a>
-
-                <a href="https://www.linkedin.com/in/filmon-m-habtu-90a59a110/" target="_blank"><img src="assets/images/if_square-linkedin_317725.png" height="51"/>
-                </a>
-
-                <a href="https://stackoverflow.com/users/11173717/filmon-m-habtu" target="_blank"><img src="assets/images/if_stackoverflow-square-social-media_764927.png" height="51"/>
-                </a>
-
-            </div>
-        </div>
-
-        <div class="row"> 
-            <div class="col-md-12" id="footer">© Copyright 2019 Filmon m habtu</div>
-        </div>
-
-
+      <section id="menu-buttons">
+        <a href="index.html"><button class="button">About</button></a>
+        <a href="portfolio.html"><button class="button">Portfolio</button></a>
+        <a href="contact.html"><button class="button">Contact</button></a>
+      </section>
     </div>
+  </header>
+  <div class="container">
+    <section id="portfolio">
+      <h2>Portfolio</h2>
+
+      <div class="imgHolder">
+        <a href="#"><img src="assets/images/portfolio-1.jpg" alt="" id="portfolio-img"></a>
+        <span>React-Clicky-Game</span>
+      </div>
+      <div class="imgHolder-R">
+        <a href="#"><img src="assets/images/portfolio-2.jpg" alt="RPG Game" id="portfolio-img"></a>
+        <span>GifTastic-webpage</span>
+      </div>
+      <div class="imgHolder">
+        <a href="#"><img src="assets/images/portfolio-3.jpg" alt="Trivia Game" id="portfolio-img"></a>
+        <span>Trivia Game</span>
+      </div>
+      <div class="imgHolder-R">
+        <a href="#"><img src="assets/images/portfolio-4.jpg" alt="Rutgers Info Widget" id="portfolio-img">
+          <span>Psychic-Game</span></a>
+      </div>
+      <div class="imgHolder">
+        <a href="#"><img src="assets/images/portfolio-5.jpg" alt="Rock Paper Scissors" id="portfolio-img">
+          <span>Rock Paper Scissors</span></a>
+      </div>
+
+
+    </section>
+
+    <section id="connect">
+      <h3>Connect with Me</h3>
+
+      <section id="icon-container">
+        <a href="https://github.com/Filsolu93" target="_blank">
+          <img src="assets/images/1469771795_github_social_media_online_logo.png" alt="githubLogo"
+            id="social-icons"></a>
+
+        <a href="https://www.linkedin.com/in/filmon-m-habtu-90a59a110/" target="_blank">
+          <img src="assets/images/1469771804_linkedin_social_media_online_logo.png" alt="instagramLogo"
+            id="social-icons"></a>
+
+        <a href="https://www.instagram.com/filhabtu/" target="_blank">
+          <img src="assets/images/1469771796_instagram_social_media_online_logo.png" alt="instagramLogo"
+            id="social-icons"></a>
+      </section>
+
+    </section>
+  </div>
+
+  <div class="footer-container">
+    <footer>&copy Copyright 2019 Filmon habtu</footer>
+  </div>
+
 
 </body>
+
 </html>
